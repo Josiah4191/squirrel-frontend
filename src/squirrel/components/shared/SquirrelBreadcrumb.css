@@ -1,0 +1,24 @@
+.breadcrumb {
+    grid-column: 1/-1;
+    width: 100%;
+    max-width: 900px;
+    justify-self: center;
+}
+
+.breadcrumb ol {
+    display: flex;
+    gap: var(--gap-sm);
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: var(--color-interactive-hover);
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+    margin-left: var(--gap-sm);
+}

@@ -1,0 +1,17 @@
+.selection-input {
+    appearance: none;
+    border-radius: var(--radius-sm);
+    padding: var(--padding-sm);
+    text-align: center;
+    width: 80%;
+    min-width: 0;
+    max-width: 340px;
+    text-align-last: center;
+    background: var(--squirrel-300);
+    border: 1px solid var(--squirrel-600);
+    box-shadow: var(--shadow-md);
+    height: 2.5rem;
+    font: inherit;
+    color: var(--color-text);
+    cursor: pointer;
+}

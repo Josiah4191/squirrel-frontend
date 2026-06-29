@@ -1,0 +1,12 @@
+.item-option-list {
+    width: 100%;
+
+    list-style: none;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-md);
+    padding-bottom: var(--padding-lg);
+}

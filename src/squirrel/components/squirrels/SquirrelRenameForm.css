@@ -1,0 +1,9 @@
+.squirrel-form {
+    background: var(--squirrel-300);
+    align-items: center;
+    gap: var(--gap-md);
+}
+
+.squirrel-form:hover, .squirrel-action-menu:hover {
+    cursor: default;
+}

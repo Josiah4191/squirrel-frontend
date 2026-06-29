@@ -1,0 +1,32 @@
+.squirrel-card {
+    background: url('../../assets/leaves.png') no-repeat center;
+    background-size: cover;
+    border: 1px solid var(--squirrel-600);
+    transition: 0.2s ease;
+    padding: var(--padding-md);
+    width: 300px;
+    min-height: 110px;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.squirrel-card-name, .squirrel-card-label {
+    font-family: var(--font-squirrel), var(--font-portfolio), sans-serif;
+    font-weight: var(--font-weight-semibold);
+}
+
+.squirrel-card-name {
+    align-self: center;
+    font-size: var(--font-size-xxl);
+}
+
+.squirrel-card-label {
+    font-size: var(--font-size-xl);
+}

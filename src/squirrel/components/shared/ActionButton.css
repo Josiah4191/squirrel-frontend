@@ -1,0 +1,19 @@
+.action-button {
+    border: 1px solid var(--squirrel-600);
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-sm);
+    padding: var(--padding-sm);
+}
+
+.action-button-edit, .action-button-confirm {
+    background-color: var(--squirrel-200)
+}
+
+.action-button-cancel, .action-button-remove, .action-button-delete {
+    background-color: var(--accent-peach);
+}
+
+.action-buttons {
+    display: flex;
+    gap: var(--gap-sm);
+}

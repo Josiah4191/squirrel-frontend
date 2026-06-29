@@ -1,0 +1,5 @@
+.stash-form {
+    background: var(--squirrel-300);
+    justify-content: center;
+    gap: var(--gap-md);
+}

@@ -1,0 +1,15 @@
+.quantity-input {
+    border: 1px solid var(--squirrel-600);
+    text-align: center;
+    width: 80px;
+    outline: none;
+}
+
+.item-option.item-option-selected {
+    gap: var(--gap-md);
+    max-height: 200px;
+}
+
+.item-option-selected:hover {
+    cursor: default;
+}

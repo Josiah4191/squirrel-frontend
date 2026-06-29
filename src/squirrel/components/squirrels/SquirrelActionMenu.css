@@ -1,0 +1,7 @@
+.squirrel-action-menu {
+    background: var(--squirrel-300);
+    align-items: center;
+    gap: var(--gap-md);
+    justify-content: center;
+    flex-direction: row;
+}

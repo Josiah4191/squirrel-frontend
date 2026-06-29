@@ -1,0 +1,4 @@
+.item-edit-form {
+    background: var(--squirrel-300);
+    flex-direction: column;
+}

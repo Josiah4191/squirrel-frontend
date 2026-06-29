@@ -1,0 +1,12 @@
+.stash-action-menu {
+    flex-direction: row;
+    background: var(--squirrel-300);
+    justify-content: center;
+    gap: var(--gap-md);
+}
+
+.stash-card-label {
+    font-family: var(--font-squirrel), var(--font-portfolio), sans-serif;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+}

@@ -1,0 +1,43 @@
+.item-card {
+    padding: var(--padding-md);
+    border: 1px solid var(--squirrel-600);
+    background-color: var(--squirrel-100);
+    transition: 0.2s ease;
+    text-align: center;
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: var(--gap-md);
+}
+
+.item-card-display {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    max-width: 140px;
+    align-items: center;
+    border: 1px solid var(--squirrel-600);
+    padding: var(--padding-sm);
+}
+
+.item-card-image {
+    width: 72px;
+    height: 72px;
+}
+
+.item-card-name {
+    padding: var(--padding-xs);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}

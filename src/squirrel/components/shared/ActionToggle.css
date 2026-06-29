@@ -1,0 +1,7 @@
+.action-toggle {
+    position: absolute;
+    padding: 4px;
+    bottom: 4px;
+    right: 4px;
+    z-index: 10;
+}
